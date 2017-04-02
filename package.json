@@ -1,0 +1,20 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "returns uploaded file size",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nf run nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nf start"
+  },
+  "author": "AdelMahjoub",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "forever": "0.15.3",
+    "helmet": "3.5.0",
+    "multiparty": "4.1.3"
+  }
+}

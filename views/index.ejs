@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>File Metadata</title>
+  <link rel="stylesheet" href="css/paper.css">
+</head>
+<body>
+  <div class="container">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <a class="navbar-brand" href="#">File Metadata</a>
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#">Github</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <!-- BANNER -->
+    <div class="page-header">
+    </div>
+
+    <!-- UPLOAD FORM -->
+    <div class="row">
+      <div class="col-md-12">
+        <form action="/uploads" method="POST" class="form-inline" enctype="multipart/form-data">
+          <fieldset>
+            <legend>Upload a File</legend>
+            <div class="form-group">
+              <input type="file" class="form-control" name="file" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
